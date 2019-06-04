@@ -1,0 +1,25 @@
+.first {
+width: 20px;
+height: 20px;
+border:solid;
+padding: 50px;
+}
+
+.a {
+position: absolute;
+z-index: 0;
+
+}
+.b {
+position: absolute;
+z-index: 1;
+margin-left: 120px;
+border-left: 0;
+border-right: 0;
+
+}
+.c {
+position: absolute;
+z-index: 2;
+margin-left: 240px;
+}

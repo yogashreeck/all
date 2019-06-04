@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>grid concept</title>
+<style>
+	.grid1{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100px minmax(200px, 40px);
+  background-color: pink;
+  padding: 10px;
+  grid-gap: 10px;
+
+	}
+	.elementsa {
+  background-color: rgba(255, 255, 50, 0.8);
+  font-size: 30px;
+  text-align: center;
+	}
+</style>
+</head>
+<body>
+    <div class="grid1">
+ <div class="elementsa">aaaa</div>
+ <div class="elementsa">bbbbb</div>
+ <div class="elementsa">cccc</div>
+ <div class="elementsa">1</div>
+ <div class="elementsa">2</div>
+    </div>
+</body>
+</html>

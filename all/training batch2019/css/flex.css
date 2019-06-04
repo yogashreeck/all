@@ -1,0 +1,18 @@
+.as{
+	display: flex;
+	background-color: green;
+	align-items: center;
+    height: 200px;
+}
+.as > div {
+	background-color: pink;
+	margin: 10px;
+	padding: 10px;
+}
+.con{
+	order: 2;
+	align-self: stretch;
+}
+.con2{
+	order: 3;
+}

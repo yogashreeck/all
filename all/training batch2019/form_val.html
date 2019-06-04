@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+ 	
+ 	function val_form() {
+ 		var username=document.getElementById('user').value;
+ 		var passwords=document.getElementById('pass').value;
+
+ 		if (username.trim() =="" || passwords.trim() =="") 
+ 		{
+            window.alert( " no blank values allowed");
+            return false;
+ 		}
+ 		else{
+              true;
+ 		}
+ 	}
+ </script>
+</head>
+<body>
+	<form onsubmit ="return val_form()" action="sample.html">
+		<label>name</label>
+     <input id="user" type="text" name="name" required><br><br>
+     <label>password</label>
+     <input id="pass" type="password" name="password" required><br><br>
+     <button type="submit">submit</button>
+ </form>
+</body>
+</html>

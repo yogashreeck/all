@@ -1,0 +1,43 @@
+#div{
+  border:solid;
+  color: green;
+  background-color: white;
+  border-width: 30px;
+  padding: 30px;
+  border-radius: 70px;
+}
+#rcorners1 {
+  border-radius: 25px;
+  background: red;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: solid;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+  background-color: navy;
+  color: white;
+}
+
+#img {
+  border-radius: 75px;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+.text1{
+  color: navy;
+}
+.text2{
+  color: red;
+}
+#div1{
+ background-color: grey;
+ border:solid;
+ border-radius: 50px;
+}
